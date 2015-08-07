@@ -1,0 +1,77 @@
+.min_w { min-width: 1200px; width: 100%; }
+
+.set_w { width: 1200px; margin: 0 auto; }
+
+.header { background-color: #fbfbf5; }
+.header .top { height: 34px; }
+.header .top { zoom: 1; }
+.header .top:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "."; }
+.header .top .r, .header .top .l { float: right; color: #727272; }
+.header .top .r span, .header .top .r a, .header .top .l span, .header .top .l a { display: inline-block; *zoom: 1; *display: inline; padding: 0 5px; margin: 0 5px; height: 34px; line-height: 34px; color: #727272; }
+.header .top .r span:hover, .header .top .r span.on, .header .top .r a:hover, .header .top .r a.on, .header .top .l span:hover, .header .top .l span.on, .header .top .l a:hover, .header .top .l a.on { color: #df086c; }
+.header .top .l { float: left; }
+.header .topline { border-bottom: 1px solid #efeceb; }
+.header .head { height: 130px; }
+.header .head .nav { display: inline-block; *zoom: 1; *display: inline; vertical-align: middle; height: 125px; }
+.header .head .nav li { display: inline-block; *zoom: 1; *display: inline; height: 125px; }
+.header .head .nav li:hover { border-bottom: 5px solid #df086c; }
+.header .head .nav li a { display: block; padding: 0 22px; }
+.header .head .nav li i, .header .head .nav li span { display: inline-block; *zoom: 1; *display: inline; height: 29px; line-height: 29px; }
+.header .head .nav li i { width: 29px; vertical-align: middle; background: url("../images/icon_sprites.jpg"); margin-right: 5px; }
+.header .head .nav li span { padding: 0 5px; height: 125px; line-height: 125px; }
+.header .head .nav li i.nav_icon_1 { background-position: 0 0; }
+.header .head .nav li i.nav_icon_2 { background-position: -50px 0; }
+.header .head .nav li i.nav_icon_3 { background-position: -100px 0; }
+.header .head .nav li i.nav_icon_4 { background-position: -150px 0; }
+.header .head .nav li i.nav_icon_5 { background-position: -200px 0; }
+.header .head .nav .logo { width: 214px; height: 100px; vertical-align: middle; }
+.header .head .nav .logo:hover { border-bottom: none; }
+.header .head .other-list { float: right; margin: 30px 0 0; }
+.header .head .other-list li { display: inline-block; *zoom: 1; *display: inline; margin: 0 5px; height: 60px; padding: 0 5px; }
+.header .head .other-list li i { display: block; width: 38px; height: 38px; background-image: url("../images/icon_sprites.jpg"); margin: 0 auto 5px; }
+.header .head .other-list li i.o_1 { background-position: 0 -39px; }
+.header .head .other-list li i.o_2 { background-position: -57px -39px; }
+.header .head .other-list li i.o_3 { background-position: -113px -39px; }
+
+.banner { width: 100%; min-width: 1200px; height: 572px; }
+.banner .bd li, .banner .bd a { display: block; height: 522px; background-position: center; background-repeat: no-repeat; }
+.banner .hd { height: 50px; text-align: center; line-height: 50px; }
+.banner .hd li { display: inline-block; *zoom: 1; *display: inline; width: 10px; height: 10px; margin: 0 5px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; background: #727272; cursor: pointer; }
+.banner .hd li.on, .banner .hd li:hover { background: #df086c; }
+
+.footer { margin-top: 20px; }
+.footer.line_darkred { border-top: 1px solid #df086c; height: 310px; }
+.footer.line_darkred { zoom: 1; }
+.footer.line_darkred:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "."; }
+.footer.line_lightred { border-top: 1px solid #f8dfe4; background: #faf9f8; height: 60px; }
+.footer.line_lightred { zoom: 1; }
+.footer.line_lightred:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "."; }
+.footer .sitemap { padding: 25px 0; }
+.footer .sitemap { zoom: 1; }
+.footer .sitemap:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "."; }
+.footer .sitemap dl { float: left; width: 20%; text-align: left; }
+.footer .sitemap dt { font-size: 14px; color: #333; height: 30px; line-height: 30px; }
+.footer .sitemap dd { font-size: 12px; height: 24px; line-height: 24px; }
+.footer .sitemap dd a:link, .footer .sitemap dd a:visited { color: #999; }
+.footer .sitemap dd a:hover { color: #727272; }
+.footer .parter { position: relative; overflow: hidden; }
+.footer .parter a.slide { display: block; position: absolute; top: 50%; width: 20px; height: 30px; background-image: url("../images/icon_sprites.jpg"); cursor: pointer; }
+.footer .parter a.prev { background-position: 0 -87px; left: 0; }
+.footer .parter a.next { background-position: -55px -87px; right: 0; }
+.footer .parter h3 { font-size: 14px; height: 32px; line-height: 32px; }
+.footer .parter .parter_list { display: block; width: 90%; height: 42px; margin: 25px auto; overflow: hidden; }
+.footer .parter .parter_list { zoom: 1; }
+.footer .parter .parter_list:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "."; }
+.footer .parter .parter_list li { display: block; float: left; width: 140px; height: 40px; margin: 0 19px; border: 1px solid #ccc5c2; }
+.footer .parter .parter_list a { display: block; height: 40px; }
+.footer .parter .parter_list a img { width: 100%; height: 100%; }
+.footer .foot_info { padding: 16px 0; }
+.footer .foot_info { zoom: 1; }
+.footer .foot_info:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "."; }
+.footer .foot_info .navlist li { display: inline-block; *zoom: 1; *display: inline; padding: 0 10px; vertical-align: middle; height: 28px; line-height: 28px; }
+.footer .foot_info .navlist li a:link, .footer .foot_info .navlist li a:visited { color: #727272; }
+.footer .foot_info .navlist li a:hover { color: #999; }
+.footer .foot_info .hotline { height: 28px; line-height: 28px; }
+.footer .foot_info .hotline h3 { font-size: 14px; }
+
+/*# sourceMappingURL=index.css.map */
