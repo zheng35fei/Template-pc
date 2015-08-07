@@ -35,7 +35,4 @@
 .f-csm{cursor:move;}
 .f-usn{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;}
 
-/*page width*/
-.min_w {width:100%; min-width:1200px;}
-.set_w {width:1200px; margin:0 auto;}
 
